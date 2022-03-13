@@ -21,6 +21,7 @@ int main() {
 
     if (gradeCounter != 0) {
         double average{static_cast<double>(total) / gradeCounter};
+
         cout << "\nTotal of the " << gradeCounter
              << " grades entered is " << total;
         cout << setprecision(2) << fixed;
